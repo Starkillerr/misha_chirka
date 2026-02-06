@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+padding: 0;
+position: relative;
+}
+
+.header {
+    background-color: #565656;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    height: auto;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.top-barlogo {
+     display: inline-block;     
+  width: 40px;             
+  height: 40px;               
+  background-image: url("./imgs/Icon-Burger-menu.png");
+  background-size: contain;  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.page-img {
+      display: inline-block;     
+  width: 40px;             
+  height: 40px;               
+  background-image: url("./imgs/app_logo.png");
+  background-size: contain;  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top-bar_cart {
+      display: inline-block;     
+  width: 40px;             
+  height: 40px;               
+  background-image: url("./imgs/cart\ \(2\).png");
+  background-size: contain;  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top-bar_cart-img{
+    min-height: 40px;
+    padding-right: 15px;
+}
+
+.page-logo {
+    margin: 0 auto;
+}
+
+
+.icon-phone {
+    text-decoration: none;
+    color: white;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+}
+.phone-logo {
+    margin: auto;
+}
+
+.top-bar_cart {
+    text-decoration: none;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 30px;
+    margin-bottom: 20px;
+
+    /* width: 50px; */
+    
+}
+
+.search-input {
+    width: 220px;
+  height: 30px;
+border-radius: 20px ;
+border:  2.5px solid rgb(101, 101, 204); 
+background-image: url("./imgs/search.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 16px;
+
+  padding-left: 36px;
+
+}
+
+.search-input:focus {
+outline: none;
+}
+
+.grid-container {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: auto auto; 
+  gap: 50px;
+  width: max-content;
+  margin: 0 auto;
+  
+}
+
+.grid-content {
+    /* margin: 20px 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid rgb(101, 101, 204); 
+    height: fit-content;
+    width: fit-content;
+}
+
+
+.card__image-1 {
+     width: 200px;
+    height: 200px;
+    background-image: url(/imgs/pannel.jpg);
+       background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.card__image-2 {
+     width: 200px;
+    height: 200px;
+    background-image: url(/imgs/acc-batt.jpg);
+       background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.card__image-3 {
+     width: 200px;
+    height: 200px;
+    background-image: url(/imgs/inverter.jpg);
+       background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.card__image-4 {
+     width: 200px;
+    height: 200px;
+    background-image: url(/imgs/off.jpg);
+       background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.card {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__name {
+    text-decoration: none;
+    color: black;
+}
