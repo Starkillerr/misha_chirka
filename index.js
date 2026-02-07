@@ -20,15 +20,15 @@ const cartPopup = document.getElementById("cartPopup");
 const cartClose = document.getElementById("cartClose");
 
 cartBtn.addEventListener("click", () => {
-    cartPopup.style.display = "flex"; // показать корзину
+    cartPopup.style.display = "flex"; 
 });
 
 cartClose.addEventListener("click", () => {
-    cartPopup.style.display = "none"; // закрыть
+    cartPopup.style.display = "none"; 
 });
 
 cartPopup.addEventListener("click", (e) => {
     if(e.target === cartPopup) {
-        cartPopup.style.display = "none"; // закрытие при клике на фон
+        cartPopup.style.display = "none"; 
     }
 });
