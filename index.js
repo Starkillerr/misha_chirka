@@ -14,3 +14,21 @@ close.addEventListener('click', e => {
   menu.classList.remove('active');
   document.documentElement.classList.remove('menu-open');
 });
+
+const cartBtn = document.getElementById("cartBtn");
+const cartPopup = document.getElementById("cartPopup");
+const cartClose = document.getElementById("cartClose");
+
+cartBtn.addEventListener("click", () => {
+    cartPopup.style.display = "flex"; // показать корзину
+});
+
+cartClose.addEventListener("click", () => {
+    cartPopup.style.display = "none"; // закрыть
+});
+
+cartPopup.addEventListener("click", (e) => {
+    if(e.target === cartPopup) {
+        cartPopup.style.display = "none"; // закрытие при клике на фон
+    }
+});
