@@ -19,6 +19,7 @@ overlay.addEventListener("click", () => {
 close.addEventListener('click', e => {
   e.preventDefault();
   menu.classList.remove('active');
+  overlay.classList.remove("active");
   document.documentElement.classList.remove('menu-open');
 });
 
